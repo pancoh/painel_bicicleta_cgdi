@@ -1,0 +1,749 @@
+{
+  "updatedAt": "2026-03-15",
+  "totals": {
+    "iniciativas": 434,
+    "municipios": 231,
+    "ufs": 25,
+    "regioes": 5
+  },
+  "byCategory": [
+    {
+      "label": "Saúde e qualidade de vida",
+      "value": 118
+    },
+    {
+      "label": "Cultura da bicicleta",
+      "value": 108
+    },
+    {
+      "label": "Conscientização",
+      "value": 56
+    },
+    {
+      "label": "Desenvolvimento",
+      "value": 53
+    },
+    {
+      "label": "Planejamento",
+      "value": 51
+    },
+    {
+      "label": "Sustentabilidade",
+      "value": 48
+    }
+  ],
+  "byRegion": [
+    {
+      "label": "Sudeste",
+      "value": 187
+    },
+    {
+      "label": "Nordeste",
+      "value": 108
+    },
+    {
+      "label": "Sul",
+      "value": 62
+    },
+    {
+      "label": "Norte",
+      "value": 39
+    },
+    {
+      "label": "Centro Oeste",
+      "value": 38
+    }
+  ],
+  "byStatus": [
+    {
+      "label": "Em andamento",
+      "value": 212
+    },
+    {
+      "label": "Realizada",
+      "value": 143
+    },
+    {
+      "label": "Não realizada",
+      "value": 78
+    },
+    {
+      "label": "Ponto de Apoio para Cicloviajantes",
+      "value": 1
+    }
+  ],
+  "byProponente": [
+    {
+      "label": "OSC",
+      "value": 235
+    },
+    {
+      "label": "PP",
+      "value": 82
+    },
+    {
+      "label": "SP",
+      "value": 76
+    },
+    {
+      "label": "IE",
+      "value": 41
+    }
+  ],
+  "byUf": [
+    {
+      "uf": "SP",
+      "total": 91,
+      "municipios": 40,
+      "lat": -22.4,
+      "lon": -48.2,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 25
+        },
+        {
+          "label": "Cultura da bicicleta",
+          "value": 25
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 13
+        },
+        {
+          "label": "Conscientização",
+          "value": 11
+        },
+        {
+          "label": "Planejamento",
+          "value": 10
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "uf": "MG",
+      "total": 48,
+      "municipios": 28,
+      "lat": -18.1,
+      "lon": -44.0,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 17
+        },
+        {
+          "label": "Cultura da bicicleta",
+          "value": 9
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 8
+        },
+        {
+          "label": "Planejamento",
+          "value": 5
+        },
+        {
+          "label": "Conscientização",
+          "value": 5
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "uf": "RJ",
+      "total": 42,
+      "municipios": 18,
+      "lat": -22.5,
+      "lon": -43.5,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 11
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 9
+        },
+        {
+          "label": "Planejamento",
+          "value": 8
+        },
+        {
+          "label": "Cultura da bicicleta",
+          "value": 6
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 4
+        },
+        {
+          "label": "Conscientização",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "uf": "PE",
+      "total": 30,
+      "municipios": 11,
+      "lat": -8.4,
+      "lon": -37.7,
+      "categorias": [
+        {
+          "label": "Cultura da bicicleta",
+          "value": 12
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 7
+        },
+        {
+          "label": "Conscientização",
+          "value": 4
+        },
+        {
+          "label": "Planejamento",
+          "value": 3
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 3
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "PA",
+      "total": 29,
+      "municipios": 15,
+      "lat": -3.8,
+      "lon": -52.0,
+      "categorias": [
+        {
+          "label": "Cultura da bicicleta",
+          "value": 8
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 6
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 5
+        },
+        {
+          "label": "Conscientização",
+          "value": 4
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 3
+        },
+        {
+          "label": "Planejamento",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "uf": "RS",
+      "total": 24,
+      "municipios": 17,
+      "lat": -30.2,
+      "lon": -53.0,
+      "categorias": [
+        {
+          "label": "Cultura da bicicleta",
+          "value": 9
+        },
+        {
+          "label": "Planejamento",
+          "value": 5
+        },
+        {
+          "label": "Conscientização",
+          "value": 3
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 3
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 2
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "uf": "CE",
+      "total": 21,
+      "municipios": 9,
+      "lat": -5.2,
+      "lon": -39.5,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 6
+        },
+        {
+          "label": "Conscientização",
+          "value": 5
+        },
+        {
+          "label": "Cultura da bicicleta",
+          "value": 4
+        },
+        {
+          "label": "Planejamento",
+          "value": 3
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 2
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "BA",
+      "total": 21,
+      "municipios": 15,
+      "lat": -12.8,
+      "lon": -41.5,
+      "categorias": [
+        {
+          "label": "Cultura da bicicleta",
+          "value": 5
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 5
+        },
+        {
+          "label": "Planejamento",
+          "value": 3
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 3
+        },
+        {
+          "label": "Conscientização",
+          "value": 3
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "uf": "PR",
+      "total": 20,
+      "municipios": 9,
+      "lat": -24.6,
+      "lon": -51.6,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 7
+        },
+        {
+          "label": "Cultura da bicicleta",
+          "value": 6
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 4
+        },
+        {
+          "label": "Planejamento",
+          "value": 2
+        },
+        {
+          "label": "Conscientização",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "DF",
+      "total": 19,
+      "municipios": 1,
+      "lat": -15.8,
+      "lon": -47.9,
+      "categorias": [
+        {
+          "label": "Conscientização",
+          "value": 5
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 4
+        },
+        {
+          "label": "Cultura da bicicleta",
+          "value": 4
+        },
+        {
+          "label": "Planejamento",
+          "value": 2
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 2
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "uf": "SC",
+      "total": 18,
+      "municipios": 10,
+      "lat": -27.3,
+      "lon": -50.5,
+      "categorias": [
+        {
+          "label": "Cultura da bicicleta",
+          "value": 5
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 4
+        },
+        {
+          "label": "Planejamento",
+          "value": 3
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 3
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "uf": "GO",
+      "total": 11,
+      "municipios": 7,
+      "lat": -16.1,
+      "lon": -49.3,
+      "categorias": [
+        {
+          "label": "Cultura da bicicleta",
+          "value": 4
+        },
+        {
+          "label": "Conscientização",
+          "value": 3
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 2
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 1
+        },
+        {
+          "label": "Planejamento",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "RN",
+      "total": 10,
+      "municipios": 7,
+      "lat": -5.8,
+      "lon": -36.7,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 3
+        },
+        {
+          "label": "Cultura da bicicleta",
+          "value": 3
+        },
+        {
+          "label": "Planejamento",
+          "value": 2
+        },
+        {
+          "label": "Conscientização",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "uf": "MA",
+      "total": 9,
+      "municipios": 8,
+      "lat": -5.0,
+      "lon": -45.4,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 5
+        },
+        {
+          "label": "Cultura da bicicleta",
+          "value": 2
+        },
+        {
+          "label": "Conscientização",
+          "value": 1
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "MS",
+      "total": 7,
+      "municipios": 7,
+      "lat": -20.8,
+      "lon": -54.5,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 3
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 2
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 1
+        },
+        {
+          "label": "Conscientização",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "AL",
+      "total": 6,
+      "municipios": 5,
+      "lat": -9.6,
+      "lon": -36.6,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 4
+        },
+        {
+          "label": "Cultura da bicicleta",
+          "value": 1
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "ES",
+      "total": 6,
+      "municipios": 6,
+      "lat": -19.5,
+      "lon": -40.5,
+      "categorias": [
+        {
+          "label": "Cultura da bicicleta",
+          "value": 2
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 2
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 1
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "SE",
+      "total": 5,
+      "municipios": 4,
+      "lat": -10.7,
+      "lon": -37.4,
+      "categorias": [
+        {
+          "label": "Cultura da bicicleta",
+          "value": 2
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 1
+        },
+        {
+          "label": "Conscientização",
+          "value": 1
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "AP",
+      "total": 5,
+      "municipios": 3,
+      "lat": 1.2,
+      "lon": -51.5,
+      "categorias": [
+        {
+          "label": "Sustentabilidade",
+          "value": 2
+        },
+        {
+          "label": "Conscientização",
+          "value": 2
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "PB",
+      "total": 4,
+      "municipios": 3,
+      "lat": -7.1,
+      "lon": -36.7,
+      "categorias": [
+        {
+          "label": "Sustentabilidade",
+          "value": 1
+        },
+        {
+          "label": "Conscientização",
+          "value": 1
+        },
+        {
+          "label": "Planejamento",
+          "value": 1
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "AM",
+      "total": 3,
+      "municipios": 3,
+      "lat": -4.2,
+      "lon": -63.0,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 2
+        },
+        {
+          "label": "Cultura da bicicleta",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "PI",
+      "total": 2,
+      "municipios": 2,
+      "lat": -7.1,
+      "lon": -42.8,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 1
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "TO",
+      "total": 1,
+      "municipios": 1,
+      "lat": -10.2,
+      "lon": -48.0,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "MT",
+      "total": 1,
+      "municipios": 1,
+      "lat": -13.6,
+      "lon": -56.0,
+      "categorias": [
+        {
+          "label": "Sustentabilidade",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "RO",
+      "total": 1,
+      "municipios": 1,
+      "lat": -10.9,
+      "lon": -63.3,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "geocoding": {
+    "municipiosComCoordenadas": 231,
+    "municipiosSemCoordenadas": 0,
+    "faltantes": []
+  }
+}

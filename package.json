@@ -1,0 +1,16 @@
+{
+  "name": "painel-bicicleta-cgdi",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare-data": "python3 scripts/build_data.py",
+    "dev": "npm run prepare-data && observable preview",
+    "preview": "npm run prepare-data && observable preview",
+    "build": "npm run prepare-data && observable build"
+  },
+  "dependencies": {
+    "@observablehq/framework": "^1.13.2",
+    "@observablehq/plot": "^0.6.17",
+    "d3": "^7.9.0"
+  }
+}
