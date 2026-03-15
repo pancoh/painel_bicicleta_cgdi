@@ -172,7 +172,7 @@ export function ufMap(data, brazilStates, {height = 420, width = 640} = {}) {
     height,
     width,
     margin: 12,
-    style: {background: "transparent", fontFamily: "'Rawline', Verdana, 'Segoe UI', sans-serif", fontSize: "13px"},
+    style: {background: "transparent", fontFamily: "'IBM Plex Sans', 'Segoe UI', sans-serif", fontSize: "13px"},
     projection: {
       type: "mercator",
       domain: projectionDomain,

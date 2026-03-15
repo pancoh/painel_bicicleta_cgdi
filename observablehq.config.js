@@ -8,38 +8,49 @@ export default {
   toc: false,
   pager: false,
   search: true,
-  globalStylesheets: ["./theme.css"],
+  globalStylesheets: [],
   pages: [
-    { name: "Brasil", path: "/" }
+    { name: "Brasil", path: "/" },
+    { name: "Regiões", path: "/regioes" },
+    { name: "Estados", path: "/estados" },
+    { name: "Municípios", path: "/municipios" },
   ],
   head: `
-    <style>
-      @font-face { font-family: "Rawline"; src: url("./fonts/rawline/rawline-400.ttf") format("truetype"); font-weight: 400; font-style: normal; font-display: block; }
-      @font-face { font-family: "Rawline"; src: url("./fonts/rawline/rawline-600.ttf") format("truetype"); font-weight: 600; font-style: normal; font-display: block; }
-      @font-face { font-family: "Rawline"; src: url("./fonts/rawline/rawline-700.ttf") format("truetype"); font-weight: 700; font-style: normal; font-display: block; }
-    </style>
-    <link rel="preload" href="./fonts/rawline/rawline-400.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="./fonts/rawline/rawline-600.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="./fonts/rawline/rawline-700.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/theme.css">
   `,
   header: `
     <div class="site-shell">
       <div class="site-topbar">
-        <a class="brand-home" href="/" aria-label="Página inicial do painel">
-          <div class="brand-mark">SB</div>
-          <div class="brand-text">
-            <span class="brand-kicker">MINISTÉRIO DAS CIDADES</span>
-            <span class="brand-title">Selo Bicicleta Brasil</span>
-          </div>
-        </a>
+        <div class="brand-lockup">
+          <a class="brand-home" href="/" aria-label="Página inicial do Selo Bicicleta Brasil">
+            <div class="brand-mark">SB</div>
+            <div class="brand-text">
+              <span class="brand-kicker">Ministério das Cidades</span>
+              <span class="brand-title">Selo Bicicleta Brasil</span>
+            </div>
+          </a>
+        </div>
+        <nav class="site-nav" aria-label="Navegação principal">
+          <a href="/">Brasil</a>
+          <a href="/regioes">Regiões</a>
+          <a href="/estados">Estados</a>
+          <a href="/municipios">Municípios</a>
+        </nav>
       </div>
     </div>
   `,
   footer: `
     <div class="site-shell footer-shell">
-      <hr class="page-note-divider">
-      <p>Painel institucional em Observable Framework com atualização estática a partir da base Excel do projeto.</p>
-      <p>Fonte: base "BASE_SELO_SITE.xlsx". Elaboração: CGDI.</p>
+      <hr class="page-note-divider" style="margin-top:0">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p>Painel institucional em Observable Framework com atualização estática a partir da base Excel do projeto.</p>
+          <p>Fonte: base "BASE_SELO_SITE.xlsx". Elaboração: CGDI.</p>
+        </div>
+      </div>
     </div>
   `
 };
