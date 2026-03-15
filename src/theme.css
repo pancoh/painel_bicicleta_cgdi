@@ -607,9 +607,14 @@ body {
 .map-shell-wide .observablehq--block svg {
     flex: 1;
     width: 100% !important;
-    height: 100% !important;
+    height: auto !important;
     max-width: 100%;
     min-height: 0;
+}
+
+.map-shell-wide .observablehq--block figure,
+.map-shell-wide .observablehq--block {
+    overflow: hidden;
 }
 
 /* --- Tables --- */
