@@ -62,9 +62,9 @@ regionInput.addEventListener("input", () => {
 <div class="hero-shell">
   <div class="hero-grid">
     <div class="hero-copy">
-      <p class="hero-pill">Atualizado em ${formatDate(summary.updatedAt)}</p>
       <h1 class="hero-title">SELO BICICLETA BRASIL 2025</h1>
       <p class="hero-subtitle">Conheça as iniciativas reconhecidas na base consolidada do projeto, com filtros explícitos, visão territorial por UF e consulta detalhada das instituições e iniciativas cadastradas.</p>
+      <p class="hero-updated">Atualizado em ${formatDate(summary.updatedAt)}</p>
     </div>
   </div>
 </div>

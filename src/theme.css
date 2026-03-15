@@ -353,6 +353,13 @@ body {
     width: fit-content;
 }
 
+.hero-updated {
+    margin: 0.6rem 0 0;
+    text-align: right;
+    font-size: 0.84rem;
+    color: var(--theme-foreground-muted);
+}
+
 /* --- Buttons --- */
 
 .button {
