@@ -1003,9 +1003,27 @@ body {
         flex: 1;
     }
 
-    .metric-grid,
-    .control-shell {
+    .metric-grid {
         grid-template-columns: 1fr;
+    }
+
+    .control-shell {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.6rem;
+    }
+
+    .control-shell .control:last-child {
+        grid-column: 1 / -1;
+    }
+
+    .control > :is(select, input) {
+        min-height: 40px;
+    }
+
+    .section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
     }
 
     .table-toolbar {
