@@ -48,7 +48,7 @@ export default {
       <div class="footer-content">
         <div class="footer-info">
           <p>Painel institucional em Observable Framework com atualização estática a partir da base Excel do projeto.</p>
-          <p>Fonte: base "BASE_SELO_SITE.xlsx". Elaboração: CGDI.</p>
+          <p>Fonte: Secretaria Nacional de Mobilidade Urbana</p>
         </div>
       </div>
     </div>
