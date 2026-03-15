@@ -180,7 +180,7 @@ export function ufMap(data, brazilStates, {height = 420, width = 640} = {}) {
     },
     x: {axis: null},
     y: {axis: null},
-    r: {range: [4, 40], type: "log"},
+    r: {range: [Math.max(2, width * 0.006), Math.max(12, width * 0.05)], type: "log"},
     marks: [
       Plot.geo(brazilStates, {
         fill: "#f1f3f5",

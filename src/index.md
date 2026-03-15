@@ -79,8 +79,6 @@ const filtered = filterData(iniciativas, {
   search: typeof searchTerm === "string" ? searchTerm : ""
 });
 const totals = summarize(filtered);
-const mapWidth = Math.round(width * 0.63);
-const mapHeight = Math.round(mapWidth * 0.60);
 ```
 
 <div class="card card-compact">
@@ -119,7 +117,7 @@ const mapHeight = Math.round(mapWidth * 0.60);
         <p>Pontos posicionados por município e UF. Passe o cursor sobre os círculos para detalhes.</p>
       </div>
     </div>
-    ${ufMap(filtered, brazilStates, {height: mapHeight, width: mapWidth})}
+    ${resize((w) => ufMap(filtered, brazilStates, {width: w, height: Math.round(w * 0.65)}))}
   </div>
   <div class="panel-side">
     <div class="metric-grid metric-grid-2col">
