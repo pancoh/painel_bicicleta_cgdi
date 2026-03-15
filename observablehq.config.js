@@ -2,6 +2,7 @@ export default {
   title: "Painel Selo Bicicleta Brasil 2025",
   root: "src",
   output: "dist",
+  base: "/painel_bicicleta_cgdi/",
   theme: "air",
   sidebar: false,
   toc: false,
