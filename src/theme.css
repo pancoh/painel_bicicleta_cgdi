@@ -161,7 +161,7 @@ body {
 
 #observablehq-center {
     width: var(--layout-width);
-    margin: 0 auto;
+    margin: 0 auto !important;
     padding: 0;
 }
 
