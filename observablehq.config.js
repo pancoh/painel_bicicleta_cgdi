@@ -43,7 +43,7 @@ export default {
       <hr class="page-note-divider" style="margin-top:0">
       <div class="footer-content">
         <div class="footer-info">
-          <p>Painel institucional em Observable Framework com atualização estática a partir da base Excel do projeto.</p>
+          <p>Painel com as iniciativas que integram a Rede do Programa Bicicleta Brasil e que receberam o Selo de reconhecimento do Programa, concedido a ações que valorizam, estimulam e fortalecem a ciclomobilidade no país.</p>
           <p>Fonte: Secretaria Nacional de Mobilidade Urbana</p>
         </div>
         <img class="footer-logo" src="/logos/logo_mcid.png" alt="Logo do Ministério das Cidades">
