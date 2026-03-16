@@ -28,7 +28,7 @@ exportButton.onclick = () => {
 
 <div class="table-shell">
   <div class="table-toolbar">
-    <div class="table-meta">${formatNumber(sorted.length)} linhas na base processada</div>
+    <div class="table-meta">434 linhas na base completa</div>
     ${exportButton}
   </div>
   <div class="table-wrap">
