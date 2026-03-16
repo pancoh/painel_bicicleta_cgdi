@@ -1011,18 +1011,12 @@ body {
         flex-direction: column;
     }
 
-    .brand-lockup {
-        justify-content: center;
-    }
-
     .brand-home {
-        flex-direction: column;
         align-items: center;
-        text-align: center;
     }
 
-    .brand-text {
-        align-items: center;
+    .brand-logo {
+        height: 60px;
     }
 
     .site-nav {
