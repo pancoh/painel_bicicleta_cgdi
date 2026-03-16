@@ -22,8 +22,13 @@ exportButton.onclick = () => {
 ```
 
 <div class="hero-shell">
-  <h1 class="hero-title" style="font-size:2.3rem">Base consolidada</h1>
-  <p class="hero-subtitle">A exportação abaixo baixa toda a base processada do painel.</p>
+  <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
+    <div>
+      <h1 class="hero-title" style="font-size:2.3rem">Base consolidada</h1>
+      <p class="hero-subtitle">A exportação abaixo baixa toda a base processada do painel.</p>
+    </div>
+    <a class="button button-secondary" href="/">← Voltar ao painel</a>
+  </div>
 </div>
 
 <div class="table-shell">
