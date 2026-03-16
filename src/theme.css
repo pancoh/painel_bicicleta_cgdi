@@ -1075,10 +1075,6 @@ body {
         width: min(100vw - 20px, 1200px);
     }
 
-    .brand-logo {
-        height: 95px;
-    }
-
     .footer-content {
         flex-direction: column;
         align-items: center;
