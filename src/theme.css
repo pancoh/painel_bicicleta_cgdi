@@ -194,6 +194,15 @@ body {
     text-decoration: none;
 }
 
+.brand-logo {
+    display: block;
+    width: auto;
+    height: 46px;
+    object-fit: contain;
+    object-position: left center;
+    flex: 0 0 auto;
+}
+
 .brand-mark {
     display: grid;
     place-items: center;
@@ -960,6 +969,16 @@ body {
     margin-top: 0.25rem;
 }
 
+.footer-logo {
+    display: block;
+    height: 52px;
+    width: auto;
+    object-fit: contain;
+    object-position: right center;
+    flex: 0 0 auto;
+    opacity: 0.80;
+}
+
 /* --- Responsiveness --- */
 
 @media (max-width: 1100px) {
@@ -1052,9 +1071,19 @@ body {
         width: min(100vw - 20px, 1200px);
     }
 
+    .brand-logo {
+        height: 38px;
+    }
+
     .footer-content {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 1rem;
+        text-align: center;
+    }
+
+    .footer-logo {
+        height: 40px;
+        object-position: center;
     }
 }

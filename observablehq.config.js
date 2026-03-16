@@ -19,6 +19,8 @@ export default {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/logos/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/logos/favicon.png">
     <link rel="stylesheet" href="/theme.css">
   `,
   header: `
@@ -26,7 +28,7 @@ export default {
       <div class="site-topbar">
         <div class="brand-lockup">
           <a class="brand-home" href="/" aria-label="Página inicial do Selo Bicicleta Brasil">
-            <div class="brand-mark">SB</div>
+            <img class="brand-logo" src="/logos/Logo_Programa_Bicicleta Brasil.png" alt="Logo Programa Bicicleta Brasil">
             <div class="brand-text">
               <span class="brand-kicker">Ministério das Cidades</span>
               <span class="brand-title">Selo Bicicleta Brasil</span>
@@ -50,6 +52,7 @@ export default {
           <p>Painel institucional em Observable Framework com atualização estática a partir da base Excel do projeto.</p>
           <p>Fonte: Secretaria Nacional de Mobilidade Urbana</p>
         </div>
+        <img class="footer-logo" src="/logos/logo_mcid.png" alt="Logo do Ministério das Cidades">
       </div>
     </div>
   `
