@@ -132,7 +132,8 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
+    max-width: var(--layout-width);
     background:
         radial-gradient(
             circle at top left,
