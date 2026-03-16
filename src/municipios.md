@@ -23,7 +23,7 @@ exportButton.onclick = () => {
 
 <div class="hero-shell">
   <h1 class="hero-title" style="font-size:2.3rem">Base consolidada</h1>
-  <p class="hero-subtitle">Tabela de consulta com amostra ampliada. A exportação abaixo baixa toda a base processada do painel.</p>
+  <p class="hero-subtitle">A exportação abaixo baixa toda a base processada do painel.</p>
 </div>
 
 <div class="table-shell">
