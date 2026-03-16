@@ -37,9 +37,6 @@ export default {
         </div>
         <nav class="site-nav" aria-label="Navegação principal">
           <a href="/">Brasil</a>
-          <a href="/regioes">Regiões</a>
-          <a href="/estados">Estados</a>
-          <a href="/municipios">Municípios</a>
         </nav>
       </div>
     </div>
