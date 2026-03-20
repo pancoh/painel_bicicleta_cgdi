@@ -1,8 +1,8 @@
 {
   "updatedAt": "2026-03-20",
   "totals": {
-    "iniciativas": 434,
-    "municipios": 231,
+    "iniciativas": 521,
+    "municipios": 241,
     "ufs": 25,
     "regioes": 5
   },
@@ -30,28 +30,60 @@
     {
       "label": "Sustentabilidade",
       "value": 48
+    },
+    {
+      "label": "Fomento à Cultura da Bicicleta",
+      "value": 18
+    },
+    {
+      "label": "Projetos, Planos, Programa e Urbanização",
+      "value": 18
+    },
+    {
+      "label": "Incentivo ao Uso da bicicleta",
+      "value": 15
+    },
+    {
+      "label": "Segurança Viária",
+      "value": 13
+    },
+    {
+      "label": "Mobilização e Incidência Política",
+      "value": 9
+    },
+    {
+      "label": "Infraestrutura cicloviária",
+      "value": 7
+    },
+    {
+      "label": "Sistemas de Informação e Redes",
+      "value": 6
+    },
+    {
+      "label": "Equipamentos de apoio",
+      "value": 1
     }
   ],
   "byRegion": [
     {
       "label": "Sudeste",
-      "value": 187
+      "value": 224
     },
     {
       "label": "Nordeste",
-      "value": 108
+      "value": 124
     },
     {
       "label": "Sul",
-      "value": 62
-    },
-    {
-      "label": "Norte",
-      "value": 39
+      "value": 74
     },
     {
       "label": "Centro Oeste",
-      "value": 38
+      "value": 52
+    },
+    {
+      "label": "Norte",
+      "value": 47
     }
   ],
   "byStatus": [
@@ -65,36 +97,48 @@
     },
     {
       "label": "Não realizada",
-      "value": 78
+      "value": 79
     },
     {
-      "label": "Ponto de Apoio para Cicloviajantes",
-      "value": 1
+      "label": "não se aplica",
+      "value": 79
+    },
+    {
+      "label": "Não se aplica",
+      "value": 8
     }
   ],
   "byProponente": [
     {
-      "label": "OSC",
-      "value": 235
+      "label": "Organização da Sociedade Civil",
+      "value": 278
     },
     {
-      "label": "PP",
-      "value": 82
+      "label": "Poder Público",
+      "value": 101
     },
     {
-      "label": "SP",
-      "value": 76
+      "label": "Setor Privado",
+      "value": 91
     },
     {
-      "label": "IE",
-      "value": 41
+      "label": "Instituição de Ensino",
+      "value": 49
+    },
+    {
+      "label": "Setor Público",
+      "value": 1
+    },
+    {
+      "label": "0",
+      "value": 1
     }
   ],
   "byUf": [
     {
       "uf": "SP",
-      "total": 91,
-      "municipios": 40,
+      "total": 111,
+      "municipios": 42,
       "lat": -22.4,
       "lon": -48.2,
       "categorias": [
@@ -121,13 +165,94 @@
         {
           "label": "Sustentabilidade",
           "value": 7
+        },
+        {
+          "label": "Fomento à Cultura da Bicicleta",
+          "value": 5
+        },
+        {
+          "label": "Segurança Viária",
+          "value": 4
+        },
+        {
+          "label": "Infraestrutura cicloviária",
+          "value": 3
+        },
+        {
+          "label": "Projetos, Planos, Programa e Urbanização",
+          "value": 3
+        },
+        {
+          "label": "Incentivo ao Uso da bicicleta",
+          "value": 2
+        },
+        {
+          "label": "Mobilização e Incidência Política",
+          "value": 2
+        },
+        {
+          "label": "Equipamentos de apoio",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "RJ",
+      "total": 57,
+      "municipios": 20,
+      "lat": -22.5,
+      "lon": -43.5,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 11
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 9
+        },
+        {
+          "label": "Planejamento",
+          "value": 8
+        },
+        {
+          "label": "Cultura da bicicleta",
+          "value": 6
+        },
+        {
+          "label": "Projetos, Planos, Programa e Urbanização",
+          "value": 5
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 4
+        },
+        {
+          "label": "Conscientização",
+          "value": 4
+        },
+        {
+          "label": "Segurança Viária",
+          "value": 4
+        },
+        {
+          "label": "Fomento à Cultura da Bicicleta",
+          "value": 2
+        },
+        {
+          "label": "Incentivo ao Uso da bicicleta",
+          "value": 2
+        },
+        {
+          "label": "Mobilização e Incidência Política",
+          "value": 2
         }
       ]
     },
     {
       "uf": "MG",
-      "total": 48,
-      "municipios": 28,
+      "total": 49,
+      "municipios": 29,
       "lat": -18.1,
       "lon": -44.0,
       "categorias": [
@@ -154,45 +279,16 @@
         {
           "label": "Desenvolvimento",
           "value": 4
-        }
-      ]
-    },
-    {
-      "uf": "RJ",
-      "total": 42,
-      "municipios": 18,
-      "lat": -22.5,
-      "lon": -43.5,
-      "categorias": [
-        {
-          "label": "Saúde e qualidade de vida",
-          "value": 11
         },
         {
-          "label": "Desenvolvimento",
-          "value": 9
-        },
-        {
-          "label": "Planejamento",
-          "value": 8
-        },
-        {
-          "label": "Cultura da bicicleta",
-          "value": 6
-        },
-        {
-          "label": "Sustentabilidade",
-          "value": 4
-        },
-        {
-          "label": "Conscientização",
-          "value": 4
+          "label": "Projetos, Planos, Programa e Urbanização",
+          "value": 1
         }
       ]
     },
     {
       "uf": "PE",
-      "total": 30,
+      "total": 40,
       "municipios": 11,
       "lat": -8.4,
       "lon": -37.7,
@@ -210,6 +306,14 @@
           "value": 4
         },
         {
+          "label": "Fomento à Cultura da Bicicleta",
+          "value": 4
+        },
+        {
+          "label": "Sistemas de Informação e Redes",
+          "value": 4
+        },
+        {
           "label": "Planejamento",
           "value": 3
         },
@@ -220,13 +324,21 @@
         {
           "label": "Desenvolvimento",
           "value": 1
+        },
+        {
+          "label": "Mobilização e Incidência Política",
+          "value": 1
+        },
+        {
+          "label": "Incentivo ao Uso da bicicleta",
+          "value": 1
         }
       ]
     },
     {
       "uf": "PA",
-      "total": 29,
-      "municipios": 15,
+      "total": 34,
+      "municipios": 16,
       "lat": -3.8,
       "lon": -52.0,
       "categorias": [
@@ -253,140 +365,24 @@
         {
           "label": "Planejamento",
           "value": 3
-        }
-      ]
-    },
-    {
-      "uf": "RS",
-      "total": 24,
-      "municipios": 17,
-      "lat": -30.2,
-      "lon": -53.0,
-      "categorias": [
-        {
-          "label": "Cultura da bicicleta",
-          "value": 9
         },
         {
-          "label": "Planejamento",
-          "value": 5
-        },
-        {
-          "label": "Conscientização",
-          "value": 3
-        },
-        {
-          "label": "Saúde e qualidade de vida",
-          "value": 3
-        },
-        {
-          "label": "Sustentabilidade",
+          "label": "Fomento à Cultura da Bicicleta",
           "value": 2
         },
         {
-          "label": "Desenvolvimento",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "uf": "CE",
-      "total": 21,
-      "municipios": 9,
-      "lat": -5.2,
-      "lon": -39.5,
-      "categorias": [
-        {
-          "label": "Saúde e qualidade de vida",
-          "value": 6
-        },
-        {
-          "label": "Conscientização",
-          "value": 5
-        },
-        {
-          "label": "Cultura da bicicleta",
-          "value": 4
-        },
-        {
-          "label": "Planejamento",
-          "value": 3
-        },
-        {
-          "label": "Desenvolvimento",
+          "label": "Mobilização e Incidência Política",
           "value": 2
         },
         {
-          "label": "Sustentabilidade",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "uf": "BA",
-      "total": 21,
-      "municipios": 15,
-      "lat": -12.8,
-      "lon": -41.5,
-      "categorias": [
-        {
-          "label": "Cultura da bicicleta",
-          "value": 5
-        },
-        {
-          "label": "Saúde e qualidade de vida",
-          "value": 5
-        },
-        {
-          "label": "Planejamento",
-          "value": 3
-        },
-        {
-          "label": "Desenvolvimento",
-          "value": 3
-        },
-        {
-          "label": "Conscientização",
-          "value": 3
-        },
-        {
-          "label": "Sustentabilidade",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "uf": "PR",
-      "total": 20,
-      "municipios": 9,
-      "lat": -24.6,
-      "lon": -51.6,
-      "categorias": [
-        {
-          "label": "Saúde e qualidade de vida",
-          "value": 7
-        },
-        {
-          "label": "Cultura da bicicleta",
-          "value": 6
-        },
-        {
-          "label": "Desenvolvimento",
-          "value": 4
-        },
-        {
-          "label": "Planejamento",
-          "value": 2
-        },
-        {
-          "label": "Conscientização",
+          "label": "Incentivo ao Uso da bicicleta",
           "value": 1
         }
       ]
     },
     {
       "uf": "DF",
-      "total": 19,
+      "total": 28,
       "municipios": 1,
       "lat": -15.8,
       "lon": -47.9,
@@ -414,13 +410,193 @@
         {
           "label": "Saúde e qualidade de vida",
           "value": 2
+        },
+        {
+          "label": "Incentivo ao Uso da bicicleta",
+          "value": 2
+        },
+        {
+          "label": "Segurança Viária",
+          "value": 2
+        },
+        {
+          "label": "Mobilização e Incidência Política",
+          "value": 2
+        },
+        {
+          "label": "Sistemas de Informação e Redes",
+          "value": 2
+        },
+        {
+          "label": "Fomento à Cultura da Bicicleta",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "RS",
+      "total": 27,
+      "municipios": 18,
+      "lat": -30.2,
+      "lon": -53.0,
+      "categorias": [
+        {
+          "label": "Cultura da bicicleta",
+          "value": 9
+        },
+        {
+          "label": "Planejamento",
+          "value": 5
+        },
+        {
+          "label": "Conscientização",
+          "value": 3
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 3
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 2
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 2
+        },
+        {
+          "label": "Segurança Viária",
+          "value": 2
+        },
+        {
+          "label": "Fomento à Cultura da Bicicleta",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "PR",
+      "total": 26,
+      "municipios": 10,
+      "lat": -24.6,
+      "lon": -51.6,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 7
+        },
+        {
+          "label": "Cultura da bicicleta",
+          "value": 6
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 4
+        },
+        {
+          "label": "Planejamento",
+          "value": 2
+        },
+        {
+          "label": "Incentivo ao Uso da bicicleta",
+          "value": 2
+        },
+        {
+          "label": "Fomento à Cultura da Bicicleta",
+          "value": 2
+        },
+        {
+          "label": "Conscientização",
+          "value": 1
+        },
+        {
+          "label": "Infraestrutura cicloviária",
+          "value": 1
+        },
+        {
+          "label": "Projetos, Planos, Programa e Urbanização",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "BA",
+      "total": 24,
+      "municipios": 15,
+      "lat": -12.8,
+      "lon": -41.5,
+      "categorias": [
+        {
+          "label": "Cultura da bicicleta",
+          "value": 5
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 5
+        },
+        {
+          "label": "Planejamento",
+          "value": 3
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 3
+        },
+        {
+          "label": "Conscientização",
+          "value": 3
+        },
+        {
+          "label": "Incentivo ao Uso da bicicleta",
+          "value": 3
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "uf": "CE",
+      "total": 23,
+      "municipios": 9,
+      "lat": -5.2,
+      "lon": -39.5,
+      "categorias": [
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 6
+        },
+        {
+          "label": "Conscientização",
+          "value": 5
+        },
+        {
+          "label": "Cultura da bicicleta",
+          "value": 4
+        },
+        {
+          "label": "Planejamento",
+          "value": 3
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 2
+        },
+        {
+          "label": "Projetos, Planos, Programa e Urbanização",
+          "value": 2
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 1
         }
       ]
     },
     {
       "uf": "SC",
-      "total": 18,
-      "municipios": 10,
+      "total": 21,
+      "municipios": 11,
       "lat": -27.3,
       "lon": -50.5,
       "categorias": [
@@ -443,13 +619,21 @@
         {
           "label": "Sustentabilidade",
           "value": 3
+        },
+        {
+          "label": "Infraestrutura cicloviária",
+          "value": 2
+        },
+        {
+          "label": "Incentivo ao Uso da bicicleta",
+          "value": 1
         }
       ]
     },
     {
       "uf": "GO",
-      "total": 11,
-      "municipios": 7,
+      "total": 15,
+      "municipios": 8,
       "lat": -16.1,
       "lon": -49.3,
       "categorias": [
@@ -462,6 +646,10 @@
           "value": 3
         },
         {
+          "label": "Projetos, Planos, Programa e Urbanização",
+          "value": 3
+        },
+        {
           "label": "Desenvolvimento",
           "value": 2
         },
@@ -471,6 +659,10 @@
         },
         {
           "label": "Planejamento",
+          "value": 1
+        },
+        {
+          "label": "Fomento à Cultura da Bicicleta",
           "value": 1
         }
       ]
@@ -527,7 +719,7 @@
     },
     {
       "uf": "MS",
-      "total": 7,
+      "total": 8,
       "municipios": 7,
       "lat": -20.8,
       "lon": -54.5,
@@ -546,6 +738,68 @@
         },
         {
           "label": "Conscientização",
+          "value": 1
+        },
+        {
+          "label": "Infraestrutura cicloviária",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "AP",
+      "total": 8,
+      "municipios": 3,
+      "lat": 1.2,
+      "lon": -51.5,
+      "categorias": [
+        {
+          "label": "Sustentabilidade",
+          "value": 2
+        },
+        {
+          "label": "Conscientização",
+          "value": 2
+        },
+        {
+          "label": "Projetos, Planos, Programa e Urbanização",
+          "value": 2
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 1
+        },
+        {
+          "label": "Incentivo ao Uso da bicicleta",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "uf": "ES",
+      "total": 7,
+      "municipios": 6,
+      "lat": -19.5,
+      "lon": -40.5,
+      "categorias": [
+        {
+          "label": "Cultura da bicicleta",
+          "value": 2
+        },
+        {
+          "label": "Desenvolvimento",
+          "value": 2
+        },
+        {
+          "label": "Saúde e qualidade de vida",
+          "value": 1
+        },
+        {
+          "label": "Sustentabilidade",
+          "value": 1
+        },
+        {
+          "label": "Projetos, Planos, Programa e Urbanização",
           "value": 1
         }
       ]
@@ -572,26 +826,30 @@
       ]
     },
     {
-      "uf": "ES",
-      "total": 6,
-      "municipios": 6,
-      "lat": -19.5,
-      "lon": -40.5,
+      "uf": "PB",
+      "total": 5,
+      "municipios": 3,
+      "lat": -7.1,
+      "lon": -36.7,
       "categorias": [
         {
-          "label": "Cultura da bicicleta",
-          "value": 2
+          "label": "Sustentabilidade",
+          "value": 1
         },
         {
-          "label": "Desenvolvimento",
-          "value": 2
+          "label": "Conscientização",
+          "value": 1
+        },
+        {
+          "label": "Planejamento",
+          "value": 1
         },
         {
           "label": "Saúde e qualidade de vida",
           "value": 1
         },
         {
-          "label": "Sustentabilidade",
+          "label": "Segurança Viária",
           "value": 1
         }
       ]
@@ -613,52 +871,6 @@
         },
         {
           "label": "Conscientização",
-          "value": 1
-        },
-        {
-          "label": "Saúde e qualidade de vida",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "uf": "AP",
-      "total": 5,
-      "municipios": 3,
-      "lat": 1.2,
-      "lon": -51.5,
-      "categorias": [
-        {
-          "label": "Sustentabilidade",
-          "value": 2
-        },
-        {
-          "label": "Conscientização",
-          "value": 2
-        },
-        {
-          "label": "Saúde e qualidade de vida",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "uf": "PB",
-      "total": 4,
-      "municipios": 3,
-      "lat": -7.1,
-      "lon": -36.7,
-      "categorias": [
-        {
-          "label": "Sustentabilidade",
-          "value": 1
-        },
-        {
-          "label": "Conscientização",
-          "value": 1
-        },
-        {
-          "label": "Planejamento",
           "value": 1
         },
         {
@@ -742,7 +954,7 @@
     }
   ],
   "geocoding": {
-    "municipiosComCoordenadas": 231,
+    "municipiosComCoordenadas": 241,
     "municipiosSemCoordenadas": 0,
     "faltantes": []
   }
