@@ -13,7 +13,7 @@ const allUfs = ["Todas", ...Array.from(new Set(iniciativas.map((d) => d.uf))).so
 const regions = ["Todas", ...new Set(iniciativas.map((d) => d.regiao))];
 const categorias = ["Todas", ...Array.from(new Set(iniciativas.map((d) => d.categoria))).sort((a, b) => a.localeCompare(b, "pt-BR"))];
 const proponentes = ["Todos", ...Array.from(new Set(iniciativas.map((d) => d.proponente))).sort()];
-const anos = ["Todos", ...Array.from(new Set(iniciativas.map((d) => d.anoConcessao).filter(Boolean))).sort()];
+const anos = ["Todos", ...Array.from(new Set(iniciativas.map((d) => d.anoConcessao).filter(Boolean))).sort().reverse()];
 const premiadaOpcoes = ["Todas", "Sim", "Não"];
 
 const ufsByRegion = new Map();
