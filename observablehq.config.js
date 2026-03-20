@@ -13,7 +13,7 @@ export default {
     { name: "Brasil", path: "/" },
     { name: "Regiões", path: "/regioes" },
     { name: "Estados", path: "/estados" },
-    { name: "Municípios", path: "/municipios" },
+    { name: "Municípios", path: "/base_consolidada" },
   ],
   head: `
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,7 @@ export default {
       <hr class="page-note-divider" style="margin-top:0">
       <div class="footer-content">
         <div class="footer-info">
-          <p>Este painel, elaborado e mantido pela Secretaria Nacional de Mobilidade Urbana, reúne as iniciativas que integram a Rede do Programa Bicicleta Brasil e receberam o Selo de reconhecimento do Programa. As informações apresentadas são de inteira responsabilidade dos autores das iniciativas. A base consolidada das iniciativas está disponível para consulta e download <a href="/municipios">aqui</a>.</p>
+          <p>Este painel, elaborado e mantido pela Secretaria Nacional de Mobilidade Urbana, reúne as iniciativas que integram a Rede do Programa Bicicleta Brasil e receberam o Selo de reconhecimento do Programa. As informações apresentadas são de inteira responsabilidade dos autores das iniciativas. A base consolidada das iniciativas está disponível para consulta e download <a href="/base_consolidada">aqui</a>.</p>
 
         </div>
         <img class="footer-logo" src="/logos/logo_mcid.png" alt="Logo do Ministério das Cidades">
