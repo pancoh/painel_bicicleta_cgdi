@@ -463,7 +463,16 @@ tbody tr:hover {
     box-sizing: border-box;
   }
 
-  .site-topbar,
+  .site-topbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brand-logo {
+    max-width: 200px;
+  }
+
   .table-toolbar {
     flex-direction: column;
     align-items: flex-start;
