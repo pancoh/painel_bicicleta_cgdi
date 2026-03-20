@@ -62,6 +62,12 @@ a {
   padding: 1rem 0 1.2rem;
 }
 
+.brand-lockup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .brand-home {
   display: inline-flex;
   align-items: center;
@@ -466,6 +472,12 @@ tbody tr:hover {
   .site-topbar {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+
+  .brand-lockup {
+    width: 100%;
+    display: flex;
     justify-content: center;
   }
 
