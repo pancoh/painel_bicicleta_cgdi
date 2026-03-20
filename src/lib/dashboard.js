@@ -240,8 +240,10 @@ export function paginatedExplorer(rows, {pageSize = 12} = {}) {
   `;
 
   function renderRow(item) {
+    const isPremiada = item.premiada === "Sim";
     return html`
-      <article class="explorer-row">
+      <article class=${`explorer-row${isPremiada ? " explorer-row--premiada" : ""}`}>
+        ${isPremiada ? html`<div class="premiada-ribbon">★ Premiada</div>` : ""}
         <div class="explorer-topline">
           <div class="explorer-meta-left">
             <span class="chip">${item.proponente}</span>
@@ -250,7 +252,6 @@ export function paginatedExplorer(rows, {pageSize = 12} = {}) {
           </div>
           <div class="explorer-meta-right">
             <span class=${`badge badge-${item.estadoAplicacaoTone}`}>${item.estadoAplicacao}</span>
-            ${item.premiada === "Sim" ? html`<span class="badge badge-premiada">★ Premiada</span>` : ""}
           </div>
         </div>
         <h3 class="explorer-title">${item.iniciativa}</h3>

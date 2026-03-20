@@ -411,10 +411,24 @@ tbody tr:hover {
   color: var(--theme-accent-strong);
 }
 
-.badge-premiada {
-  background: #fef3c7;
-  color: #92400e;
-  border-color: #fcd34d;
+.explorer-row--premiada {
+  border-left: 4px solid #d97706;
+  background: linear-gradient(135deg, #fffbeb 0%, rgba(255, 255, 255, 0.96) 40%);
+}
+
+.premiada-ribbon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.25);
 }
 
 .ranking-list {
