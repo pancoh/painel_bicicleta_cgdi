@@ -243,7 +243,7 @@ export function paginatedExplorer(rows, {pageSize = 12} = {}) {
     const isPremiada = item.premiada === "Sim";
     return html`
       <article class=${`explorer-row${isPremiada ? " explorer-row--premiada" : ""}`}>
-        ${isPremiada ? html`<div class="premiada-ribbon">★ Premiada${item.anoConcessao ? ` — ${item.anoConcessao}` : ""}</div>` : ""}
+        ${isPremiada ? html`<span class="premiada-ribbon">★ Premiada${item.anoConcessao ? ` — ${item.anoConcessao}` : ""}</span>` : ""}
         <div class="explorer-topline">
           <div class="explorer-meta-left">
             <span class="chip">${item.proponente}</span>
