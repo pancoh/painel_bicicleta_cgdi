@@ -16,6 +16,8 @@ export function filterData(data, filters) {
     if (filters.uf && filters.uf !== "Todas" && item.uf !== filters.uf) return false;
     if (filters.categoria && filters.categoria !== "Todas" && item.categoria !== filters.categoria) return false;
     if (filters.proponente && filters.proponente !== "Todos" && item.proponente !== filters.proponente) return false;
+    if (filters.ano && filters.ano !== "Todos" && item.anoConcessao !== filters.ano) return false;
+    if (filters.premiada && filters.premiada !== "Todas" && item.premiada !== filters.premiada) return false;
     if (!search) return true;
     const haystack = [
       item.iniciativa,

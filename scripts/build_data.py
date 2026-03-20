@@ -192,6 +192,7 @@ def main() -> None:
             "estadoAplicacaoTone": status_tone(status),
             "descricao": normalize_space(row.get("DESCRIÇÃO", "")),
             "dataConcessao": excel_serial_to_iso(row.get("DATA DA CONCESSÃO DO SELO", "")),
+            "anoConcessao": (excel_serial_to_iso(row.get("DATA DA CONCESSÃO DO SELO", "")) or "")[:4] or "",
             "categoria": category,
             "instituicao": normalize_space(row.get("INSTITUIÇÃO", "")),
             "municipio": city,
@@ -199,6 +200,7 @@ def main() -> None:
             "regiao": region,
             "codigoIbge": normalize_space(row.get("CÓDIGO IBGE", "")),
             "linkDrive": link,
+            "premiada": normalize_space(row.get("PREMIADA", "")),
             "lat": coord["lat"] if coord else None,
             "lon": coord["lon"] if coord else None,
             "coordinateSource": "municipio" if municipality_coord else ("uf" if coord else None)

@@ -13,6 +13,8 @@ const allUfs = ["Todas", ...Array.from(new Set(iniciativas.map((d) => d.uf))).so
 const regions = ["Todas", ...new Set(iniciativas.map((d) => d.regiao))];
 const categorias = ["Todas", ...Array.from(new Set(iniciativas.map((d) => d.categoria))).sort((a, b) => a.localeCompare(b, "pt-BR"))];
 const proponentes = ["Todos", ...Array.from(new Set(iniciativas.map((d) => d.proponente))).sort()];
+const anos = ["Todos", ...Array.from(new Set(iniciativas.map((d) => d.anoConcessao).filter(Boolean))).sort()];
+const premiadaOpcoes = ["Todas", "Sim", "Não"];
 
 const ufsByRegion = new Map();
 for (const d of iniciativas) {
@@ -23,6 +25,8 @@ for (const d of iniciativas) {
 const regionInput = Inputs.select(regions, {value: "Todas"});
 const categoriaInput = Inputs.select(categorias, {value: "Todas"});
 const proponenteInput = Inputs.select(proponentes, {value: "Todos"});
+const anoInput = Inputs.select(anos, {value: "Todos"});
+const premiadaInput = Inputs.select(premiadaOpcoes, {value: "Todas"});
 const buscaInput = Inputs.text({placeholder: "Iniciativa, instituição ou município"});
 
 // UF: Inputs.select nativo, filtra opções via hidden/disabled ao trocar região
@@ -50,6 +54,8 @@ const region = Generators.input(regionInput);
 const uf = Generators.input(ufInput);
 const categoria = Generators.input(categoriaInput);
 const proponente = Generators.input(proponenteInput);
+const ano = Generators.input(anoInput);
+const premiada = Generators.input(premiadaInput);
 const busca = Generators.input(buscaInput);
 
 regionInput.addEventListener("input", () => {
@@ -74,6 +80,8 @@ const filtered = filterData(iniciativas, {
   uf,
   categoria,
   proponente,
+  ano,
+  premiada,
   search: typeof searchTerm === "string" ? searchTerm : ""
 });
 const totals = summarize(filtered);
@@ -94,6 +102,10 @@ const totals = summarize(filtered);
       categoriaInput.dispatchEvent(new Event("input", {bubbles: true}));
       proponenteInput.value = "Todos";
       proponenteInput.dispatchEvent(new Event("input", {bubbles: true}));
+      anoInput.value = "Todos";
+      anoInput.dispatchEvent(new Event("input", {bubbles: true}));
+      premiadaInput.value = "Todas";
+      premiadaInput.dispatchEvent(new Event("input", {bubbles: true}));
       buscaInput.value = "";
       buscaInput.dispatchEvent(new Event("input", {bubbles: true}));
     }}>Limpar filtros</button>`}
@@ -103,6 +115,8 @@ const totals = summarize(filtered);
     <label class="control"><span>UF</span>${ufInput}</label>
     <label class="control"><span>Categoria</span>${categoriaInput}</label>
     <label class="control"><span>Proponente</span>${proponenteInput}</label>
+    <label class="control"><span>Ano</span>${anoInput}</label>
+    <label class="control"><span>Iniciativa premiada</span>${premiadaInput}</label>
     <label class="control"><span>Busca</span>${buscaInput}</label>
   </div>
 </div>
