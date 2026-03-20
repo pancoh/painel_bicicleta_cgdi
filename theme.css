@@ -411,6 +411,12 @@ tbody tr:hover {
   color: var(--theme-accent-strong);
 }
 
+.badge-premiada {
+  background: #fef3c7;
+  color: #92400e;
+  border-color: #fcd34d;
+}
+
 .ranking-list {
   display: grid;
   gap: 0.75rem;

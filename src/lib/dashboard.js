@@ -250,7 +250,7 @@ export function paginatedExplorer(rows, {pageSize = 12} = {}) {
           </div>
           <div class="explorer-meta-right">
             <span class=${`badge badge-${item.estadoAplicacaoTone}`}>${item.estadoAplicacao}</span>
-            ${item.linkDrive ? html`<a class="explorer-link" href=${item.linkDrive} target="_blank" rel="noopener noreferrer">Abrir link</a>` : html`<span class="muted">Sem link</span>`}
+            ${item.premiada === "Sim" ? html`<span class="badge badge-premiada">★ Premiada</span>` : ""}
           </div>
         </div>
         <h3 class="explorer-title">${item.iniciativa}</h3>
