@@ -135,9 +135,9 @@ const totals = summarize(filtered);
     <div class="metric-grid metric-grid-2col">
       ${[
         ["Iniciativas reconhecidas", totals.iniciativas],
+        ["Iniciativas premiadas", totals.premiadas],
         ["Municípios com registros", totals.municipios],
-        ["Unidades da federação", totals.ufs],
-        ["Regiões presentes", totals.regioes]
+        ["Unidades da federação", totals.ufs]
       ].map(([label, value]) => html`<div class="metric-card"><div class="metric-value">${formatNumber(value)}</div><div class="metric-label">${label}</div></div>`)}
     </div>
     <div class="ranking-shell">

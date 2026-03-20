@@ -34,6 +34,7 @@ export function summarize(data) {
   const count = (key) => Array.from(new Set(data.map((item) => item[key]).filter(Boolean))).length;
   return {
     iniciativas: data.length,
+    premiadas: data.filter((d) => d.premiada === "Sim").length,
     municipios: count("municipio"),
     ufs: count("uf"),
     regioes: count("regiao")
