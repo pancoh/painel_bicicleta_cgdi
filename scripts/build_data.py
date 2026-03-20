@@ -13,7 +13,7 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "BASE_SELO_SITE.xlsx"
+SOURCE = ROOT / "BASE_INICIATIVAS_PBB.xlsx"
 MUNICIPALITIES_SOURCE = ROOT / "data" / "raw" / "municipios.csv"
 TARGET_DIR = ROOT / "src" / "data" / "processed"
 TARGET_DIR.mkdir(parents=True, exist_ok=True)
@@ -197,7 +197,7 @@ def main() -> None:
             "municipio": city,
             "uf": uf,
             "regiao": region,
-            "pais": normalize_space(row.get("PAÍS", "")),
+            "codigoIbge": normalize_space(row.get("CÓDIGO IBGE", "")),
             "linkDrive": link,
             "lat": coord["lat"] if coord else None,
             "lon": coord["lon"] if coord else None,

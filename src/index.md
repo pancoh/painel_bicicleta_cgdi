@@ -1,6 +1,4 @@
 ---
-title: Brasil
----
 
 ```js
 import {html} from "npm:htl";
@@ -62,8 +60,8 @@ regionInput.addEventListener("input", () => {
 <div class="hero-shell">
   <div class="hero-grid">
     <div class="hero-copy">
-      <h1 class="hero-title">SELO BICICLETA BRASIL 2025</h1>
-      <p class="hero-subtitle">Conheça as iniciativas reconhecidas na <a href="/municipios">base consolidada do projeto</a>, com filtros explícitos, visão territorial por UF e consulta detalhada das instituições e iniciativas cadastradas.</p>
+      <h1 class="hero-title">INICIATIVAS BICICLETA BRASIL</h1>
+      <p class="hero-subtitle">Conheça as iniciativas reconhecidas pelo Selo e Prêmio Bicicleta Brasil, selecione os filtros e obtenha visão territorial por UF, quantidades e outras informações das instituições e iniciativas.</p>
     </div>
     <p class="hero-updated">Atualizado em ${formatDate(summary.updatedAt)}</p>
   </div>
@@ -85,7 +83,7 @@ const totals = summarize(filtered);
   <div class="section-heading">
     <div>
       <h2>Filtros</h2>
-      <p>Os filtros atuam em toda a página e a exportação respeita o recorte corrente.</p>
+      <p>Selecione os filtros, veja os resultados no painel.</p>
     </div>
     ${html`<button class="button button-secondary" onclick=${() => {
       regionInput.value = "Todas";
@@ -114,7 +112,7 @@ const totals = summarize(filtered);
     <div class="section-heading">
       <div>
         <h2>Distribuição geográfica por município</h2>
-        <p>Pontos posicionados por município e UF. Passe o cursor sobre os círculos para detalhes.</p>
+        <p>Passe o cursor nos círculos e veja o nome dos municípios e quantidades de iniciativas.</p>
       </div>
     </div>
     ${resize((w) => ufMap(filtered, brazilStates, {width: w, height: Math.round(w * 0.65)}))}
@@ -182,7 +180,7 @@ exportButton.onclick = () => {
       <div class="section-heading" style="margin-bottom:0.2rem">
         <div>
           <h2>Explorador de iniciativas</h2>
-          <p>Navegue pelos registros do recorte atual com paginação no próprio painel.</p>
+          <p>Visualize e exporte os registros correspondentes aos filtros selecionados.</p>
         </div>
       </div>
       <div class="table-meta">${formatNumber(filtered.length)} resultados no recorte atual</div>

@@ -196,7 +196,7 @@ export function ufMap(data, brazilStates, {height = 420, width = 640} = {}) {
         stroke: "#ffffff",
         strokeWidth: 1,
         tip: true,
-        title: (d) => `${d.municipio} — ${d.uf}\n${d.regiao}\n${d.total} iniciativas\n${d.categoriasResumo}`
+        title: (d) => `${d.municipio} – ${d.uf}\n${d.total} iniciativa(s)`
       }),
       Plot.dot(values.filter((d) => d.total >= 3), {
         x: "lon",
