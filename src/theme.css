@@ -1038,7 +1038,7 @@ body {
 
 @media (max-width: 720px) {
     .site-topbar {
-        align-items: start;
+        align-items: center;
         flex-direction: column;
     }
 
