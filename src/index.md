@@ -201,5 +201,10 @@ exportButton.onclick = () => {
     </div>
     ${exportButton}
   </div>
-  ${paginatedExplorer(filtered, {pageSize: 12})}
+  ${paginatedExplorer([...filtered].sort((a, b) => {
+    if (!a.anoConcessao && !b.anoConcessao) return 0;
+    if (!a.anoConcessao) return 1;
+    if (!b.anoConcessao) return -1;
+    return b.anoConcessao - a.anoConcessao;
+  }), {pageSize: 12})}
 </div>

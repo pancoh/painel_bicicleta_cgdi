@@ -252,7 +252,7 @@ export function paginatedExplorer(rows, {pageSize = 12} = {}) {
             <span class="chip">${item.categoria}</span>
           </div>
           <div class="explorer-meta-right">
-            <span class=${`badge badge-${item.estadoAplicacaoTone}`}>${item.estadoAplicacao}</span>
+            <span class="chip">${item.anoConcessao || "—"}</span>
           </div>
         </div>
         <h3 class="explorer-title">${item.iniciativa}</h3>
